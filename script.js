@@ -10,7 +10,7 @@ function sendEmail() {
       let subject = encodeURIComponent("New Contact Message from " + name);
       let body = encodeURIComponent("Name: " + name + "\n\nMessage: " + message);
 
-      let mailtoLink = `mailto:ajaiarunmithran@gmail.com?subject=${subject}&body=${body}`;
+      let mailtoLink = `mailto:hvac.prasanna@gmail.com?subject=${subject}&body=${body}`;
 
       window.location.href = mailtoLink;
 
